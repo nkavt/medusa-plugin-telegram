@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Wysyłaj powiadomienia ze sklepu na czat Telegram.",
+  "connection": {
+    "title": "Połączenie",
+    "configured": "Połączono",
+    "notConfigured": "Nie skonfigurowano",
+    "notConfiguredHint": "Ustaw opcje wtyczki botToken i chatId w medusa-config i uruchom ponownie serwer.",
+    "sendTest": "Wyślij wiadomość testową",
+    "testSent": "Wysłano wiadomość testową",
+    "testFailed": "Nie udało się wysłać wiadomości testowej"
+  },
+  "events": {
+    "title": "Powiadomienia",
+    "description": "Wybierz, które zdarzenia wysyłają wiadomość na Telegram.",
+    "labels": {
+      "customer_created": "Rejestracja klienta",
+      "order_placed": "Złożenie zamówienia",
+      "order_canceled": "Anulowanie zamówienia",
+      "order_completed": "Zakończenie zamówienia",
+      "order_fulfillment_created": "Realizacja zamówienia",
+      "order_return_requested": "Zgłoszenie zwrotu",
+      "order_return_received": "Otrzymanie zwrotu"
+    }
+  },
+  "language": {
+    "label": "Język wiadomości",
+    "hint": "Język wiadomości wysyłanych na Telegram."
+  },
+  "adminUrl": {
+    "label": "Adres URL panelu",
+    "hint": "Używany w linkach do zamówień i klientów w wiadomościach.",
+    "detect": "Użyj bieżącego adresu URL"
+  },
+  "contact": {
+    "label": "Dołącz dane kontaktowe klienta",
+    "hint": "Dodaje e-mail i numer telefonu klienta do wiadomości. Widzą je wszyscy uczestnicy czatu Telegram."
+  },
+  "save": "Zapisz",
+  "saved": "Zapisano ustawienia",
+  "saveFailed": "Nie udało się zapisać ustawień"
+}

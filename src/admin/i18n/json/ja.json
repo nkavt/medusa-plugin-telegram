@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "ストアの通知をTelegramチャットに送信します。",
+  "connection": {
+    "title": "接続",
+    "configured": "接続済み",
+    "notConfigured": "未設定",
+    "notConfiguredHint": "medusa-configでプラグインのbotTokenとchatIdオプションを設定し、サーバーを再起動してください。",
+    "sendTest": "テストメッセージを送信",
+    "testSent": "テストメッセージを送信しました",
+    "testFailed": "テストメッセージを送信できませんでした"
+  },
+  "events": {
+    "title": "通知",
+    "description": "Telegramメッセージを送信するイベントを選択してください。",
+    "labels": {
+      "customer_created": "顧客登録",
+      "order_placed": "注文作成",
+      "order_canceled": "注文キャンセル",
+      "order_completed": "注文完了",
+      "order_fulfillment_created": "注文フルフィルメント",
+      "order_return_requested": "返品リクエスト",
+      "order_return_received": "返品受領"
+    }
+  },
+  "language": {
+    "label": "メッセージの言語",
+    "hint": "Telegramに送信されるメッセージの言語です。"
+  },
+  "adminUrl": {
+    "label": "管理画面URL",
+    "hint": "メッセージ内の注文や顧客へのリンクに使用されます。",
+    "detect": "現在のURLを使用"
+  },
+  "contact": {
+    "label": "顧客の連絡先を含める",
+    "hint": "メッセージに顧客のメールアドレスと電話番号を追加します。Telegramチャットの全員が閲覧できます。"
+  },
+  "save": "保存",
+  "saved": "設定を保存しました",
+  "saveFailed": "設定を保存できませんでした"
+}

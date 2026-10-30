@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Отправляйте уведомления магазина в чат Telegram.",
+  "connection": {
+    "title": "Подключение",
+    "configured": "Подключено",
+    "notConfigured": "Не настроено",
+    "notConfiguredHint": "Укажите опции плагина botToken и chatId в medusa-config и перезапустите сервер.",
+    "sendTest": "Отправить тестовое сообщение",
+    "testSent": "Тестовое сообщение отправлено",
+    "testFailed": "Не удалось отправить тестовое сообщение"
+  },
+  "events": {
+    "title": "Уведомления",
+    "description": "Выберите, какие события отправляют сообщение в Telegram.",
+    "labels": {
+      "customer_created": "Регистрация клиента",
+      "order_placed": "Заказ оформлен",
+      "order_canceled": "Заказ отменён",
+      "order_completed": "Заказ завершён",
+      "order_fulfillment_created": "Заказ выполнен",
+      "order_return_requested": "Запрошен возврат",
+      "order_return_received": "Возврат получен"
+    }
+  },
+  "language": {
+    "label": "Язык сообщений",
+    "hint": "Язык сообщений, отправляемых в Telegram."
+  },
+  "adminUrl": {
+    "label": "URL админки",
+    "hint": "Используется для ссылок на заказы и клиентов в сообщениях.",
+    "detect": "Использовать текущий URL"
+  },
+  "contact": {
+    "label": "Включать контактные данные клиента",
+    "hint": "Добавляет эл. почту и телефон клиента в сообщения. Их видят все участники чата Telegram."
+  },
+  "save": "Сохранить",
+  "saved": "Настройки сохранены",
+  "saveFailed": "Не удалось сохранить настройки"
+}

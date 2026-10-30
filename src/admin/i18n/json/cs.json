@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Posílejte oznámení z obchodu do chatu na Telegramu.",
+  "connection": {
+    "title": "Připojení",
+    "configured": "Připojeno",
+    "notConfigured": "Nenakonfigurováno",
+    "notConfiguredHint": "Nastavte možnosti pluginu botToken a chatId v medusa-config a restartujte server.",
+    "sendTest": "Odeslat testovací zprávu",
+    "testSent": "Testovací zpráva odeslána",
+    "testFailed": "Testovací zprávu se nepodařilo odeslat"
+  },
+  "events": {
+    "title": "Oznámení",
+    "description": "Vyberte, které události odešlou zprávu na Telegram.",
+    "labels": {
+      "customer_created": "Registrace zákazníka",
+      "order_placed": "Objednávka vytvořena",
+      "order_canceled": "Objednávka zrušena",
+      "order_completed": "Objednávka dokončena",
+      "order_fulfillment_created": "Objednávka vyřízena",
+      "order_return_requested": "Vyžádáno vrácení",
+      "order_return_received": "Vrácení přijato"
+    }
+  },
+  "language": {
+    "label": "Jazyk zpráv",
+    "hint": "Jazyk zpráv odesílaných na Telegram."
+  },
+  "adminUrl": {
+    "label": "URL administrace",
+    "hint": "Používá se pro odkazy na objednávky a zákazníky ve zprávách.",
+    "detect": "Použít aktuální URL"
+  },
+  "contact": {
+    "label": "Zahrnout kontaktní údaje zákazníka",
+    "hint": "Přidá do zpráv e-mail a telefon zákazníka. Uvidí je všichni v chatu na Telegramu."
+  },
+  "save": "Uložit",
+  "saved": "Nastavení uloženo",
+  "saveFailed": "Nastavení se nepodařilo uložit"
+}

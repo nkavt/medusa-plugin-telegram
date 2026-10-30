@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Send store notifications to a Telegram chat.",
+  "connection": {
+    "title": "Connection",
+    "configured": "Connected",
+    "notConfigured": "Not configured",
+    "notConfiguredHint": "Set the botToken and chatId plugin options in medusa-config and restart the server.",
+    "sendTest": "Send test message",
+    "testSent": "Test message sent",
+    "testFailed": "Could not send the test message"
+  },
+  "events": {
+    "title": "Notifications",
+    "description": "Choose which events send a Telegram message.",
+    "labels": {
+      "customer_created": "Customer registered",
+      "order_placed": "Order placed",
+      "order_canceled": "Order cancelled",
+      "order_completed": "Order completed",
+      "order_fulfillment_created": "Order fulfilled",
+      "order_return_requested": "Return requested",
+      "order_return_received": "Return received"
+    }
+  },
+  "language": {
+    "label": "Message language",
+    "hint": "Language of the messages sent to Telegram."
+  },
+  "adminUrl": {
+    "label": "Admin URL",
+    "hint": "Used for links to orders and customers in messages.",
+    "detect": "Use current URL"
+  },
+  "contact": {
+    "label": "Include customer contact details",
+    "hint": "Adds the customer's email and phone number to messages. Everyone in the Telegram chat can see them."
+  },
+  "save": "Save",
+  "saved": "Settings saved",
+  "saveFailed": "Could not save settings"
+}

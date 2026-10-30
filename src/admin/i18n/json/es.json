@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Envía notificaciones de la tienda a un chat de Telegram.",
+  "connection": {
+    "title": "Conexión",
+    "configured": "Conectado",
+    "notConfigured": "No configurado",
+    "notConfiguredHint": "Define las opciones botToken y chatId del plugin en medusa-config y reinicia el servidor.",
+    "sendTest": "Enviar mensaje de prueba",
+    "testSent": "Mensaje de prueba enviado",
+    "testFailed": "No se pudo enviar el mensaje de prueba"
+  },
+  "events": {
+    "title": "Notificaciones",
+    "description": "Elige qué eventos envían un mensaje de Telegram.",
+    "labels": {
+      "customer_created": "Cliente registrado",
+      "order_placed": "Pedido realizado",
+      "order_canceled": "Pedido cancelado",
+      "order_completed": "Pedido completado",
+      "order_fulfillment_created": "Pedido preparado",
+      "order_return_requested": "Devolución solicitada",
+      "order_return_received": "Devolución recibida"
+    }
+  },
+  "language": {
+    "label": "Idioma de los mensajes",
+    "hint": "Idioma de los mensajes enviados a Telegram."
+  },
+  "adminUrl": {
+    "label": "URL del panel",
+    "hint": "Se usa para los enlaces a pedidos y clientes en los mensajes.",
+    "detect": "Usar la URL actual"
+  },
+  "contact": {
+    "label": "Incluir datos de contacto del cliente",
+    "hint": "Añade el correo electrónico y el teléfono del cliente a los mensajes. Todos los miembros del chat de Telegram pueden verlos."
+  },
+  "save": "Guardar",
+  "saved": "Configuración guardada",
+  "saveFailed": "No se pudo guardar la configuración"
+}

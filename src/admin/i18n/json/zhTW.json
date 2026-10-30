@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "將商店通知傳送到 Telegram 聊天。",
+  "connection": {
+    "title": "連線",
+    "configured": "已連線",
+    "notConfigured": "尚未設定",
+    "notConfiguredHint": "請在 medusa-config 中設定外掛的 botToken 與 chatId 選項，然後重新啟動伺服器。",
+    "sendTest": "傳送測試訊息",
+    "testSent": "測試訊息已傳送",
+    "testFailed": "無法傳送測試訊息"
+  },
+  "events": {
+    "title": "通知",
+    "description": "選擇哪些事件會傳送 Telegram 訊息。",
+    "labels": {
+      "customer_created": "顧客註冊",
+      "order_placed": "訂單已成立",
+      "order_canceled": "訂單已取消",
+      "order_completed": "訂單已完成",
+      "order_fulfillment_created": "訂單已出貨處理",
+      "order_return_requested": "已申請退貨",
+      "order_return_received": "已收到退貨"
+    }
+  },
+  "language": {
+    "label": "訊息語言",
+    "hint": "傳送到 Telegram 的訊息語言。"
+  },
+  "adminUrl": {
+    "label": "後台 URL",
+    "hint": "用於訊息中訂單與顧客的連結。",
+    "detect": "使用目前的 URL"
+  },
+  "contact": {
+    "label": "包含顧客聯絡資訊",
+    "hint": "在訊息中加入顧客的電子郵件與電話號碼。Telegram 聊天中的所有人都能看到。"
+  },
+  "save": "儲存",
+  "saved": "設定已儲存",
+  "saveFailed": "無法儲存設定"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Áruházi értesítések küldése egy Telegram-csevegésbe.",
+  "connection": {
+    "title": "Kapcsolat",
+    "configured": "Csatlakoztatva",
+    "notConfigured": "Nincs beállítva",
+    "notConfiguredHint": "Állítsd be a bővítmény botToken és chatId opcióit a medusa-configban, majd indítsd újra a szervert.",
+    "sendTest": "Tesztüzenet küldése",
+    "testSent": "Tesztüzenet elküldve",
+    "testFailed": "A tesztüzenet küldése nem sikerült"
+  },
+  "events": {
+    "title": "Értesítések",
+    "description": "Válaszd ki, mely események küldjenek Telegram-üzenetet.",
+    "labels": {
+      "customer_created": "Vásárló regisztrált",
+      "order_placed": "Rendelés leadva",
+      "order_canceled": "Rendelés törölve",
+      "order_completed": "Rendelés lezárva",
+      "order_fulfillment_created": "Rendelés teljesítve",
+      "order_return_requested": "Visszaküldés kérve",
+      "order_return_received": "Visszaküldés megérkezett"
+    }
+  },
+  "language": {
+    "label": "Üzenetek nyelve",
+    "hint": "A Telegramra küldött üzenetek nyelve."
+  },
+  "adminUrl": {
+    "label": "Admin URL",
+    "hint": "Az üzenetekben a rendelésekre és vásárlókra mutató linkekhez használjuk.",
+    "detect": "Jelenlegi URL használata"
+  },
+  "contact": {
+    "label": "Vásárló elérhetőségeinek megjelenítése",
+    "hint": "Hozzáadja a vásárló e-mail-címét és telefonszámát az üzenetekhez. A Telegram-csevegés minden tagja látja őket."
+  },
+  "save": "Mentés",
+  "saved": "Beállítások mentve",
+  "saveFailed": "A beállítások mentése nem sikerült"
+}

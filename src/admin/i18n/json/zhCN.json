@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "将商店通知发送到 Telegram 聊天。",
+  "connection": {
+    "title": "连接",
+    "configured": "已连接",
+    "notConfigured": "未配置",
+    "notConfiguredHint": "请在 medusa-config 中设置插件的 botToken 和 chatId 选项，然后重启服务器。",
+    "sendTest": "发送测试消息",
+    "testSent": "测试消息已发送",
+    "testFailed": "无法发送测试消息"
+  },
+  "events": {
+    "title": "通知",
+    "description": "选择哪些事件会发送 Telegram 消息。",
+    "labels": {
+      "customer_created": "客户注册",
+      "order_placed": "订单已下单",
+      "order_canceled": "订单已取消",
+      "order_completed": "订单已完成",
+      "order_fulfillment_created": "订单已履约",
+      "order_return_requested": "已申请退货",
+      "order_return_received": "已收到退货"
+    }
+  },
+  "language": {
+    "label": "消息语言",
+    "hint": "发送到 Telegram 的消息所使用的语言。"
+  },
+  "adminUrl": {
+    "label": "后台 URL",
+    "hint": "用于消息中指向订单和客户的链接。",
+    "detect": "使用当前 URL"
+  },
+  "contact": {
+    "label": "包含客户联系方式",
+    "hint": "在消息中添加客户的邮箱和电话号码。Telegram 聊天中的所有人都能看到。"
+  },
+  "save": "保存",
+  "saved": "设置已保存",
+  "saveFailed": "无法保存设置"
+}

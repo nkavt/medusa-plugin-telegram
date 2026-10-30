@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Siųskite parduotuvės pranešimus į Telegram pokalbį.",
+  "connection": {
+    "title": "Ryšys",
+    "configured": "Prijungta",
+    "notConfigured": "Nesukonfigūruota",
+    "notConfiguredHint": "Nustatykite įskiepio parinktis botToken ir chatId faile medusa-config ir perkraukite serverį.",
+    "sendTest": "Siųsti bandomąją žinutę",
+    "testSent": "Bandomoji žinutė išsiųsta",
+    "testFailed": "Nepavyko išsiųsti bandomosios žinutės"
+  },
+  "events": {
+    "title": "Pranešimai",
+    "description": "Pasirinkite, kurie įvykiai siunčia Telegram žinutę.",
+    "labels": {
+      "customer_created": "Kliento registracija",
+      "order_placed": "Pateiktas užsakymas",
+      "order_canceled": "Atšauktas užsakymas",
+      "order_completed": "Užbaigtas užsakymas",
+      "order_fulfillment_created": "Įvykdytas užsakymas",
+      "order_return_requested": "Prašomas grąžinimas",
+      "order_return_received": "Gautas grąžinimas"
+    }
+  },
+  "language": {
+    "label": "Žinučių kalba",
+    "hint": "Į Telegram siunčiamų žinučių kalba."
+  },
+  "adminUrl": {
+    "label": "Administravimo URL",
+    "hint": "Naudojamas nuorodoms į užsakymus ir klientus žinutėse.",
+    "detect": "Naudoti dabartinį URL"
+  },
+  "contact": {
+    "label": "Įtraukti kliento kontaktinius duomenis",
+    "hint": "Į žinutes įtraukiamas kliento el. paštas ir telefono numeris. Juos mato visi Telegram pokalbio dalyviai."
+  },
+  "save": "Išsaugoti",
+  "saved": "Nustatymai išsaugoti",
+  "saveFailed": "Nepavyko išsaugoti nustatymų"
+}

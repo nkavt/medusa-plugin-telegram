@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Šaljite obavještenja prodavnice u Telegram chat.",
+  "connection": {
+    "title": "Veza",
+    "configured": "Povezano",
+    "notConfigured": "Nije konfigurisano",
+    "notConfiguredHint": "Postavite opcije dodatka botToken i chatId u medusa-config i ponovo pokrenite server.",
+    "sendTest": "Pošalji testnu poruku",
+    "testSent": "Testna poruka poslana",
+    "testFailed": "Slanje testne poruke nije uspjelo"
+  },
+  "events": {
+    "title": "Obavještenja",
+    "description": "Odaberite koji događaji šalju Telegram poruku.",
+    "labels": {
+      "customer_created": "Kupac registrovan",
+      "order_placed": "Narudžba kreirana",
+      "order_canceled": "Narudžba otkazana",
+      "order_completed": "Narudžba završena",
+      "order_fulfillment_created": "Narudžba ispunjena",
+      "order_return_requested": "Zatražen povrat",
+      "order_return_received": "Povrat primljen"
+    }
+  },
+  "language": {
+    "label": "Jezik poruka",
+    "hint": "Jezik poruka koje se šalju na Telegram."
+  },
+  "adminUrl": {
+    "label": "URL administracije",
+    "hint": "Koristi se za linkove na narudžbe i kupce u porukama.",
+    "detect": "Koristi trenutni URL"
+  },
+  "contact": {
+    "label": "Uključi kontakt podatke kupca",
+    "hint": "Dodaje e-mail i broj telefona kupca u poruke. Vide ih svi u Telegram chatu."
+  },
+  "save": "Sačuvaj",
+  "saved": "Postavke sačuvane",
+  "saveFailed": "Čuvanje postavki nije uspjelo"
+}

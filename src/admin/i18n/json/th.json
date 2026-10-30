@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "ส่งการแจ้งเตือนของร้านค้าไปยังแชท Telegram",
+  "connection": {
+    "title": "การเชื่อมต่อ",
+    "configured": "เชื่อมต่อแล้ว",
+    "notConfigured": "ยังไม่ได้ตั้งค่า",
+    "notConfiguredHint": "ตั้งค่าตัวเลือก botToken และ chatId ของปลั๊กอินใน medusa-config แล้วรีสตาร์ทเซิร์ฟเวอร์",
+    "sendTest": "ส่งข้อความทดสอบ",
+    "testSent": "ส่งข้อความทดสอบแล้ว",
+    "testFailed": "ไม่สามารถส่งข้อความทดสอบได้"
+  },
+  "events": {
+    "title": "การแจ้งเตือน",
+    "description": "เลือกเหตุการณ์ที่จะส่งข้อความไปยัง Telegram",
+    "labels": {
+      "customer_created": "ลูกค้าลงทะเบียน",
+      "order_placed": "สั่งซื้อแล้ว",
+      "order_canceled": "ยกเลิกคำสั่งซื้อ",
+      "order_completed": "คำสั่งซื้อเสร็จสมบูรณ์",
+      "order_fulfillment_created": "จัดเตรียมคำสั่งซื้อ",
+      "order_return_requested": "ขอคืนสินค้า",
+      "order_return_received": "ได้รับสินค้าคืน"
+    }
+  },
+  "language": {
+    "label": "ภาษาของข้อความ",
+    "hint": "ภาษาของข้อความที่ส่งไปยัง Telegram"
+  },
+  "adminUrl": {
+    "label": "URL แอดมิน",
+    "hint": "ใช้สำหรับลิงก์ไปยังคำสั่งซื้อและลูกค้าในข้อความ",
+    "detect": "ใช้ URL ปัจจุบัน"
+  },
+  "contact": {
+    "label": "แสดงข้อมูลติดต่อของลูกค้า",
+    "hint": "เพิ่มอีเมลและหมายเลขโทรศัพท์ของลูกค้าในข้อความ ทุกคนในแชท Telegram จะเห็นข้อมูลนี้"
+  },
+  "save": "บันทึก",
+  "saved": "บันทึกการตั้งค่าแล้ว",
+  "saveFailed": "ไม่สามารถบันทึกการตั้งค่าได้"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "أرسل إشعارات المتجر إلى محادثة Telegram.",
+  "connection": {
+    "title": "الاتصال",
+    "configured": "متصل",
+    "notConfigured": "غير مُعد",
+    "notConfiguredHint": "اضبط خياري الإضافة botToken و chatId في medusa-config ثم أعد تشغيل الخادم.",
+    "sendTest": "إرسال رسالة تجريبية",
+    "testSent": "تم إرسال الرسالة التجريبية",
+    "testFailed": "تعذر إرسال الرسالة التجريبية"
+  },
+  "events": {
+    "title": "الإشعارات",
+    "description": "اختر الأحداث التي ترسل رسالة إلى Telegram.",
+    "labels": {
+      "customer_created": "تسجيل عميل",
+      "order_placed": "تقديم طلب",
+      "order_canceled": "إلغاء طلب",
+      "order_completed": "إكمال طلب",
+      "order_fulfillment_created": "تنفيذ طلب",
+      "order_return_requested": "طلب إرجاع",
+      "order_return_received": "استلام مرتجع"
+    }
+  },
+  "language": {
+    "label": "لغة الرسائل",
+    "hint": "لغة الرسائل المرسلة إلى Telegram."
+  },
+  "adminUrl": {
+    "label": "رابط لوحة التحكم",
+    "hint": "يُستخدم للروابط إلى الطلبات والعملاء في الرسائل.",
+    "detect": "استخدام الرابط الحالي"
+  },
+  "contact": {
+    "label": "تضمين بيانات الاتصال بالعميل",
+    "hint": "يضيف البريد الإلكتروني ورقم هاتف العميل إلى الرسائل. يمكن لجميع أعضاء محادثة Telegram رؤيتها."
+  },
+  "save": "حفظ",
+  "saved": "تم حفظ الإعدادات",
+  "saveFailed": "تعذر حفظ الإعدادات"
+}

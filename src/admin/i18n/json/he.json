@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "שליחת התראות החנות לצ׳אט Telegram.",
+  "connection": {
+    "title": "חיבור",
+    "configured": "מחובר",
+    "notConfigured": "לא מוגדר",
+    "notConfiguredHint": "הגדירו את אפשרויות התוסף botToken ו-chatId ב-medusa-config והפעילו מחדש את השרת.",
+    "sendTest": "שליחת הודעת בדיקה",
+    "testSent": "הודעת הבדיקה נשלחה",
+    "testFailed": "לא ניתן לשלוח את הודעת הבדיקה"
+  },
+  "events": {
+    "title": "התראות",
+    "description": "בחרו אילו אירועים ישלחו הודעה ל-Telegram.",
+    "labels": {
+      "customer_created": "לקוח נרשם",
+      "order_placed": "הזמנה בוצעה",
+      "order_canceled": "הזמנה בוטלה",
+      "order_completed": "הזמנה הושלמה",
+      "order_fulfillment_created": "הזמנה סופקה",
+      "order_return_requested": "התבקשה החזרה",
+      "order_return_received": "החזרה התקבלה"
+    }
+  },
+  "language": {
+    "label": "שפת ההודעות",
+    "hint": "שפת ההודעות שנשלחות ל-Telegram."
+  },
+  "adminUrl": {
+    "label": "כתובת ממשק הניהול",
+    "hint": "משמשת לקישורים להזמנות וללקוחות בהודעות.",
+    "detect": "שימוש בכתובת הנוכחית"
+  },
+  "contact": {
+    "label": "הכללת פרטי הקשר של הלקוח",
+    "hint": "מוסיף להודעות את האימייל ומספר הטלפון של הלקוח. כל המשתתפים בצ׳אט Telegram יכולים לראות אותם."
+  },
+  "save": "שמירה",
+  "saved": "ההגדרות נשמרו",
+  "saveFailed": "לא ניתן לשמור את ההגדרות"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Stuur winkelmeldingen naar een Telegram-chat.",
+  "connection": {
+    "title": "Verbinding",
+    "configured": "Verbonden",
+    "notConfigured": "Niet geconfigureerd",
+    "notConfiguredHint": "Stel de plugin-opties botToken en chatId in medusa-config in en herstart de server.",
+    "sendTest": "Testbericht versturen",
+    "testSent": "Testbericht verstuurd",
+    "testFailed": "Testbericht kon niet worden verstuurd"
+  },
+  "events": {
+    "title": "Meldingen",
+    "description": "Kies welke gebeurtenissen een Telegram-bericht versturen.",
+    "labels": {
+      "customer_created": "Klant geregistreerd",
+      "order_placed": "Bestelling geplaatst",
+      "order_canceled": "Bestelling geannuleerd",
+      "order_completed": "Bestelling voltooid",
+      "order_fulfillment_created": "Bestelling verwerkt",
+      "order_return_requested": "Retour aangevraagd",
+      "order_return_received": "Retour ontvangen"
+    }
+  },
+  "language": {
+    "label": "Taal van berichten",
+    "hint": "Taal van de berichten die naar Telegram worden gestuurd."
+  },
+  "adminUrl": {
+    "label": "Admin-URL",
+    "hint": "Gebruikt voor links naar bestellingen en klanten in berichten.",
+    "detect": "Huidige URL gebruiken"
+  },
+  "contact": {
+    "label": "Contactgegevens van klant opnemen",
+    "hint": "Voegt het e-mailadres en telefoonnummer van de klant toe aan berichten. Iedereen in de Telegram-chat kan ze zien."
+  },
+  "save": "Opslaan",
+  "saved": "Instellingen opgeslagen",
+  "saveFailed": "Instellingen konden niet worden opgeslagen"
+}

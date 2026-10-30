@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Дэлгүүрийн мэдэгдлийг Telegram чат руу илгээнэ.",
+  "connection": {
+    "title": "Холболт",
+    "configured": "Холбогдсон",
+    "notConfigured": "Тохируулаагүй",
+    "notConfiguredHint": "medusa-config дотор plugin-ий botToken болон chatId тохиргоог оруулаад серверээ дахин эхлүүлнэ үү.",
+    "sendTest": "Туршилтын мессеж илгээх",
+    "testSent": "Туршилтын мессеж илгээгдлээ",
+    "testFailed": "Туршилтын мессеж илгээж чадсангүй"
+  },
+  "events": {
+    "title": "Мэдэгдлүүд",
+    "description": "Ямар үйл явдал Telegram мессеж илгээхийг сонгоно уу.",
+    "labels": {
+      "customer_created": "Харилцагч бүртгүүлсэн",
+      "order_placed": "Захиалга өгсөн",
+      "order_canceled": "Захиалга цуцалсан",
+      "order_completed": "Захиалга дууссан",
+      "order_fulfillment_created": "Захиалга биелсэн",
+      "order_return_requested": "Буцаалт хүссэн",
+      "order_return_received": "Буцаалт хүлээн авсан"
+    }
+  },
+  "language": {
+    "label": "Мессежийн хэл",
+    "hint": "Telegram руу илгээх мессежийн хэл."
+  },
+  "adminUrl": {
+    "label": "Админы URL",
+    "hint": "Мессеж дэх захиалга, харилцагчийн холбоосонд ашиглана.",
+    "detect": "Одоогийн URL ашиглах"
+  },
+  "contact": {
+    "label": "Харилцагчийн холбоо барих мэдээллийг оруулах",
+    "hint": "Мессежид харилцагчийн имэйл, утасны дугаарыг нэмнэ. Telegram чатын бүх гишүүд харах боломжтой."
+  },
+  "save": "Хадгалах",
+  "saved": "Тохиргоо хадгалагдлаа",
+  "saveFailed": "Тохиргоог хадгалж чадсангүй"
+}

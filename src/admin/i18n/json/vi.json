@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Gửi thông báo của cửa hàng đến một cuộc trò chuyện Telegram.",
+  "connection": {
+    "title": "Kết nối",
+    "configured": "Đã kết nối",
+    "notConfigured": "Chưa cấu hình",
+    "notConfiguredHint": "Đặt các tùy chọn botToken và chatId của plugin trong medusa-config rồi khởi động lại máy chủ.",
+    "sendTest": "Gửi tin nhắn thử nghiệm",
+    "testSent": "Đã gửi tin nhắn thử nghiệm",
+    "testFailed": "Không thể gửi tin nhắn thử nghiệm"
+  },
+  "events": {
+    "title": "Thông báo",
+    "description": "Chọn những sự kiện sẽ gửi tin nhắn Telegram.",
+    "labels": {
+      "customer_created": "Khách hàng đăng ký",
+      "order_placed": "Đặt hàng",
+      "order_canceled": "Hủy đơn hàng",
+      "order_completed": "Hoàn tất đơn hàng",
+      "order_fulfillment_created": "Xử lý đơn hàng",
+      "order_return_requested": "Yêu cầu trả hàng",
+      "order_return_received": "Nhận hàng trả"
+    }
+  },
+  "language": {
+    "label": "Ngôn ngữ tin nhắn",
+    "hint": "Ngôn ngữ của tin nhắn gửi đến Telegram."
+  },
+  "adminUrl": {
+    "label": "URL quản trị",
+    "hint": "Dùng cho liên kết đến đơn hàng và khách hàng trong tin nhắn.",
+    "detect": "Dùng URL hiện tại"
+  },
+  "contact": {
+    "label": "Bao gồm thông tin liên hệ của khách hàng",
+    "hint": "Thêm email và số điện thoại của khách hàng vào tin nhắn. Mọi người trong cuộc trò chuyện Telegram đều có thể thấy."
+  },
+  "save": "Lưu",
+  "saved": "Đã lưu cài đặt",
+  "saveFailed": "Không thể lưu cài đặt"
+}

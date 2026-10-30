@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Trimite notificările magazinului într-un chat Telegram.",
+  "connection": {
+    "title": "Conexiune",
+    "configured": "Conectat",
+    "notConfigured": "Neconfigurat",
+    "notConfiguredHint": "Setează opțiunile botToken și chatId ale pluginului în medusa-config și repornește serverul.",
+    "sendTest": "Trimite mesaj de test",
+    "testSent": "Mesajul de test a fost trimis",
+    "testFailed": "Mesajul de test nu a putut fi trimis"
+  },
+  "events": {
+    "title": "Notificări",
+    "description": "Alege ce evenimente trimit un mesaj pe Telegram.",
+    "labels": {
+      "customer_created": "Client înregistrat",
+      "order_placed": "Comandă plasată",
+      "order_canceled": "Comandă anulată",
+      "order_completed": "Comandă finalizată",
+      "order_fulfillment_created": "Comandă onorată",
+      "order_return_requested": "Retur solicitat",
+      "order_return_received": "Retur primit"
+    }
+  },
+  "language": {
+    "label": "Limba mesajelor",
+    "hint": "Limba mesajelor trimise pe Telegram."
+  },
+  "adminUrl": {
+    "label": "URL admin",
+    "hint": "Folosit pentru linkurile către comenzi și clienți din mesaje.",
+    "detect": "Folosește URL-ul curent"
+  },
+  "contact": {
+    "label": "Include datele de contact ale clientului",
+    "hint": "Adaugă e-mailul și telefonul clientului în mesaje. Toți membrii chatului Telegram le pot vedea."
+  },
+  "save": "Salvează",
+  "saved": "Setări salvate",
+  "saveFailed": "Setările nu au putut fi salvate"
+}

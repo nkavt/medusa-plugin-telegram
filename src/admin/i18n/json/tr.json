@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Mağaza bildirimlerini bir Telegram sohbetine gönderin.",
+  "connection": {
+    "title": "Bağlantı",
+    "configured": "Bağlı",
+    "notConfigured": "Yapılandırılmadı",
+    "notConfiguredHint": "medusa-config içinde eklentinin botToken ve chatId seçeneklerini ayarlayın ve sunucuyu yeniden başlatın.",
+    "sendTest": "Test mesajı gönder",
+    "testSent": "Test mesajı gönderildi",
+    "testFailed": "Test mesajı gönderilemedi"
+  },
+  "events": {
+    "title": "Bildirimler",
+    "description": "Hangi olayların Telegram mesajı göndereceğini seçin.",
+    "labels": {
+      "customer_created": "Müşteri kaydı",
+      "order_placed": "Sipariş verildi",
+      "order_canceled": "Sipariş iptal edildi",
+      "order_completed": "Sipariş tamamlandı",
+      "order_fulfillment_created": "Sipariş karşılandı",
+      "order_return_requested": "İade talep edildi",
+      "order_return_received": "İade teslim alındı"
+    }
+  },
+  "language": {
+    "label": "Mesaj dili",
+    "hint": "Telegram'a gönderilen mesajların dili."
+  },
+  "adminUrl": {
+    "label": "Yönetim paneli URL'si",
+    "hint": "Mesajlardaki sipariş ve müşteri bağlantıları için kullanılır.",
+    "detect": "Mevcut URL'yi kullan"
+  },
+  "contact": {
+    "label": "Müşteri iletişim bilgilerini ekle",
+    "hint": "Mesajlara müşterinin e-posta adresini ve telefon numarasını ekler. Telegram sohbetindeki herkes bunları görebilir."
+  },
+  "save": "Kaydet",
+  "saved": "Ayarlar kaydedildi",
+  "saveFailed": "Ayarlar kaydedilemedi"
+}

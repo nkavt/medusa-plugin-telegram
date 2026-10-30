@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "اعلان‌های فروشگاه را به یک گفتگوی Telegram ارسال کنید.",
+  "connection": {
+    "title": "اتصال",
+    "configured": "متصل",
+    "notConfigured": "پیکربندی نشده",
+    "notConfiguredHint": "گزینه‌های botToken و chatId افزونه را در medusa-config تنظیم کنید و سرور را دوباره راه‌اندازی کنید.",
+    "sendTest": "ارسال پیام آزمایشی",
+    "testSent": "پیام آزمایشی ارسال شد",
+    "testFailed": "ارسال پیام آزمایشی ممکن نشد"
+  },
+  "events": {
+    "title": "اعلان‌ها",
+    "description": "انتخاب کنید کدام رویدادها پیام Telegram ارسال کنند.",
+    "labels": {
+      "customer_created": "ثبت‌نام مشتری",
+      "order_placed": "ثبت سفارش",
+      "order_canceled": "لغو سفارش",
+      "order_completed": "تکمیل سفارش",
+      "order_fulfillment_created": "انجام سفارش",
+      "order_return_requested": "درخواست مرجوعی",
+      "order_return_received": "دریافت مرجوعی"
+    }
+  },
+  "language": {
+    "label": "زبان پیام‌ها",
+    "hint": "زبان پیام‌هایی که به Telegram ارسال می‌شوند."
+  },
+  "adminUrl": {
+    "label": "آدرس پنل مدیریت",
+    "hint": "برای پیوند به سفارش‌ها و مشتریان در پیام‌ها استفاده می‌شود.",
+    "detect": "استفاده از آدرس فعلی"
+  },
+  "contact": {
+    "label": "درج اطلاعات تماس مشتری",
+    "hint": "ایمیل و شماره تلفن مشتری را به پیام‌ها اضافه می‌کند. همه اعضای گفتگوی Telegram می‌توانند آن‌ها را ببینند."
+  },
+  "save": "ذخیره",
+  "saved": "تنظیمات ذخیره شد",
+  "saveFailed": "ذخیره تنظیمات ممکن نشد"
+}

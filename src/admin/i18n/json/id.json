@@ -1,0 +1,42 @@
+{
+  "title": "Telegram",
+  "description": "Kirim notifikasi toko ke obrolan Telegram.",
+  "connection": {
+    "title": "Koneksi",
+    "configured": "Terhubung",
+    "notConfigured": "Belum dikonfigurasi",
+    "notConfiguredHint": "Atur opsi plugin botToken dan chatId di medusa-config lalu mulai ulang server.",
+    "sendTest": "Kirim pesan uji",
+    "testSent": "Pesan uji terkirim",
+    "testFailed": "Tidak dapat mengirim pesan uji"
+  },
+  "events": {
+    "title": "Notifikasi",
+    "description": "Pilih peristiwa yang mengirim pesan Telegram.",
+    "labels": {
+      "customer_created": "Pelanggan terdaftar",
+      "order_placed": "Pesanan dibuat",
+      "order_canceled": "Pesanan dibatalkan",
+      "order_completed": "Pesanan selesai",
+      "order_fulfillment_created": "Pesanan dipenuhi",
+      "order_return_requested": "Pengembalian diminta",
+      "order_return_received": "Pengembalian diterima"
+    }
+  },
+  "language": {
+    "label": "Bahasa pesan",
+    "hint": "Bahasa pesan yang dikirim ke Telegram."
+  },
+  "adminUrl": {
+    "label": "URL admin",
+    "hint": "Digunakan untuk tautan ke pesanan dan pelanggan dalam pesan.",
+    "detect": "Gunakan URL saat ini"
+  },
+  "contact": {
+    "label": "Sertakan kontak pelanggan",
+    "hint": "Menambahkan email dan nomor telepon pelanggan ke pesan. Semua anggota obrolan Telegram dapat melihatnya."
+  },
+  "save": "Simpan",
+  "saved": "Pengaturan disimpan",
+  "saveFailed": "Tidak dapat menyimpan pengaturan"
+}
