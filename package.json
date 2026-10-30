@@ -1,6 +1,6 @@
 {
   "name": "@nkavt/medusa-plugin-telegram",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Telegram notifications for Medusa v2: new customers, orders, fulfillments and returns sent to a Telegram chat. Choose events, message language and whether customer contact details are included from the admin.",
   "author": "Nikoloz Kavtaradze",
   "license": "MIT",
