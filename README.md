@@ -49,6 +49,8 @@ Total: GEL 120.50
 
 ## Installation
 
+Requires Medusa **v2.19.0 or newer** (v2.x).
+
 ```bash
 npm install @nkavt/medusa-plugin-telegram
 ```
