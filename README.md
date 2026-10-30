@@ -1,5 +1,7 @@
 # @nkavt/medusa-plugin-telegram
 
+[![CI](https://github.com/nkavt/medusa-plugin-telegram/actions/workflows/ci.yml/badge.svg)](https://github.com/nkavt/medusa-plugin-telegram/actions/workflows/ci.yml)
+
 Telegram notifications for Medusa v2. The seller gets a Telegram message when a customer registers, an order is placed, canceled, prepared for shipping, returned, and more. From the admin you choose which events are sent, the message language, and whether customer contact details (email and phone) are included.
 
 ```
@@ -118,10 +120,27 @@ Language codes match the Medusa Admin dashboard (`en`, `de`, `ptBR`, `zhCN`, …
 
 ```bash
 npm install
-npm run build   # medusa plugin:build
+npm run build       # medusa plugin:build
 npm run lint
-npm run dev     # medusa plugin:develop (publishes to local yalc registry)
+npm run typecheck   # admin UI + test files
+npm run dev         # medusa plugin:develop (publishes to local yalc registry)
 ```
+
+### Tests
+
+```bash
+npm run test:unit                  # messages, locales, service, subscriber, validation
+npm run test:integration:modules   # settings module + workflow against Postgres
+```
+
+Integration tests create a temporary database, so they need a reachable Postgres via `DB_HOST`, `DB_PORT`, `DB_USERNAME` and `DB_PASSWORD`. For example:
+
+```bash
+docker run --rm -d --name medusa-test-pg -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:16-alpine
+DB_USERNAME=postgres DB_PASSWORD=postgres npm run test:integration:modules
+```
+
+CI (`.github/workflows/ci.yml`) runs lint, typecheck, build, unit and integration tests on every pull request and on pushes to `main`.
 
 In a Medusa app: `npx medusa plugin:add @nkavt/medusa-plugin-telegram`, then add it to `plugins` in `medusa-config.ts`.
 
