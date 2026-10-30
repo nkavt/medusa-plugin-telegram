@@ -5,8 +5,8 @@ Telegram notifications for Medusa v2. The seller gets a Telegram message when a 
 ```
 🛒 New order #1042
 
-Customer: Nika Beridze
-Email: nika@example.com
+Customer: John Doe
+Email: john@example.com
 Phone: +995 555 00 00 00
 Total: GEL 120.50
 🔗 Open in admin
@@ -17,7 +17,7 @@ With *Include customer contact details* turned off, the email and phone lines ar
 ```
 🛒 New order #1042
 
-Customer: Nika Beridze
+Customer: John Doe
 Total: GEL 120.50
 🔗 Open in admin
 ```
